@@ -1,0 +1,166 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Yoyo Calbi – Candidat Gouverneur | Un avenir solide pour Serenity</title>
+  <meta name="description" content="Programme, motivations et vision de Yoyo Calbi pour devenir Gouverneur de l'État de San Andreas – Serenity RP." />
+  <meta property="og:title" content="Yoyo Calbi – Candidat Gouverneur" />
+  <meta property="og:description" content="Un avenir solide pour Serenity. Découvrez mon programme, mes motivations et ma vision pour l'État." />
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="poster.jpg" />
+  <meta name="theme-color" content="#ec4899" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <!-- Tailwind Play CDN (pour site statique rapide) -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          fontFamily: { sans: ["Inter", "system-ui", "-apple-system", "Segoe UI", "Roboto", "sans-serif"] },
+          colors: { primary: { DEFAULT: '#ec4899' } }
+        }
+      }
+    }
+  </script>
+  <style>
+    .glass { backdrop-filter: blur(10px); background: rgba(15, 23, 42, 0.6); }
+    .prose-p { color: #e5e7eb; }
+  </style>
+</head>
+<body class="bg-slate-950 text-white font-sans">
+  <!-- HERO -->
+  <header class="relative overflow-hidden">
+    <div class="absolute inset-0 bg-gradient-to-br from-primary/30 via-fuchsia-500/10 to-purple-600/10"></div>
+    <svg class="absolute -top-20 -right-20 opacity-30" width="560" height="560" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg"><path fill="#ec489966" d="M48.2,-70.2C61.1,-61.4,68.3,-45.1,73.1,-29.4C78,-13.7,80.4,1.4,76.7,15.7C73,30,63.2,43.4,50.7,53.8C38.1,64.2,22.8,71.5,6.2,76.5C-10.5,81.6,-28.4,84.5,-41.6,77.4C-54.8,70.3,-63.2,53.1,-70.4,36.4C-77.7,19.8,-83.8,3.7,-83.1,-12.8C-82.3,-29.3,-74.7,-46.3,-62.2,-56.7C-49.7,-67.1,-32.3,-70.9,-15.3,-71.9C1.8,-73,3.6,-71.2,18.3,-74.7C33,-78.2,35.3,-87,48.2,-70.2Z" transform="translate(100 100)"/></svg>
+
+    <div class="relative z-10 max-w-6xl mx-auto px-6 py-16">
+      <div class="grid lg:grid-cols-2 gap-10 items-center">
+        <div>
+          <span class="inline-block text-xs tracking-widest uppercase text-primary font-semibold">Candidature Gouverneur</span>
+          <h1 class="mt-3 text-3xl sm:text-4xl lg:text-5xl font-extrabold leading-tight">Yoyo Calbi</h1>
+          <p class="mt-3 text-primary text-lg font-semibold">« Un avenir solide pour Serenity »</p>
+          <p class="mt-6 text-slate-200 max-w-xl">Je me présente à vous non pas seulement en tant que candidat, mais avant tout en tant qu’homme convaincu que notre État mérite un cap clair, une stabilité durable et une prospérité partagée.</p>
+          <div class="mt-8 flex flex-wrap gap-3">
+            <a href="#programme" class="px-5 py-3 rounded-2xl bg-primary hover:bg-pink-500 transition font-semibold">Découvrir mon programme</a>
+            <button id="shareBtn" class="px-5 py-3 rounded-2xl border border-primary/70 hover:bg-primary/10 transition">Partager</button>
+          </div>
+        </div>
+        <div class="relative">
+          <!-- Image d’affiche (remplacez poster.jpg par votre fichier) -->
+          <div class="aspect-[4/5] w-full max-w-md mx-auto rounded-3xl overflow-hidden border border-pink-400/30 shadow-2xl">
+            <img src="poster.jpg" alt="Affiche de campagne – Yoyo Calbi" class="w-full h-full object-cover" />
+          </div>
+          <p class="text-xs text-slate-400 text-center mt-2">Astuce : placez votre image d’affiche dans le même dossier et nommez-la <code>poster.jpg</code>.</p>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- CONTENU PRINCIPAL -->
+  <main class="max-w-5xl mx-auto px-6 py-10 space-y-12">
+    <!-- Motivations -->
+    <section id="motivations" class="space-y-4">
+      <h2 class="text-2xl font-bold">Mes motivations</h2>
+      <div class="grid md:grid-cols-3 gap-4">
+        <div class="glass rounded-2xl p-5 border border-white/10">
+          <h3 class="font-semibold mb-2">Transparence & justice</h3>
+          <p class="prose-p">Serenity mérite un leader juste et transparent qui place l’intérêt collectif au-dessus des intérêts personnels.</p>
+        </div>
+        <div class="glass rounded-2xl p-5 border border-white/10">
+          <h3 class="font-semibold mb-2">Écoute & efficacité</h3>
+          <p class="prose-p">Un État fort, mais à l’écoute. Chaque décision doit être utile, comprise et mesurable.</p>
+        </div>
+        <div class="glass rounded-2xl p-5 border border-white/10">
+          <h3 class="font-semibold mb-2">Prosperité partagée</h3>
+          <p class="prose-p">Bâtir une économie équitable et stable où chaque citoyen peut prospérer.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Programme -->
+    <section id="programme" class="space-y-6">
+      <h2 class="text-2xl font-bold">Mon programme</h2>
+      <div class="grid md:grid-cols-2 gap-5">
+        <div class="glass rounded-2xl p-6 border border-white/10">
+          <h3 class="text-lg font-semibold mb-2">1. Sécurité & Justice</h3>
+          <ul class="list-disc list-inside text-slate-200 space-y-1">
+            <li>Renforcer la coopération entre LSPD, BCSO et EMS.</li>
+            <li>Programmes de réinsertion pour réduire la récidive.</li>
+            <li>Justice équitable, sans abus de pouvoir.</li>
+          </ul>
+        </div>
+        <div class="glass rounded-2xl p-6 border border-white/10">
+          <h3 class="text-lg font-semibold mb-2">2. Économie & Emploi</h3>
+          <ul class="list-disc list-inside text-slate-200 space-y-1">
+            <li>Soutien aux entreprises locales et à l’entrepreneuriat.</li>
+            <li>Primes et subventions pour créer de l’emploi.</li>
+            <li>Finances publiques stables et contrôlées.</li>
+          </ul>
+        </div>
+        <div class="glass rounded-2xl p-6 border border-white/10">
+          <h3 class="text-lg font-semibold mb-2">3. Société & Citoyens</h3>
+          <ul class="list-disc list-inside text-slate-200 space-y-1">
+            <li>Événements RP pour renforcer la communauté.</li>
+            <li>Transparence sur les décisions majeures.</li>
+            <li>Dialogue citoyen régulier avec l’exécutif.</li>
+          </ul>
+        </div>
+        <div class="glass rounded-2xl p-6 border border-white/10">
+          <h3 class="text-lg font-semibold mb-2">4. Santé & Services</h3>
+          <ul class="list-disc list-inside text-slate-200 space-y-1">
+            <li>Renforcer les moyens des EMS et du secteur médical.</li>
+            <li>Campagnes de prévention (accidents, drogues, etc.).</li>
+            <li>Accès aux soins pour tous.</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- Appel à l'action / Candidature -->
+    <section id="candidature" class="space-y-4">
+      <h2 class="text-2xl font-bold">Participer & soutenir</h2>
+      <p class="text-slate-200">Vous souhaitez soutenir la campagne, faire des retours ou poser une question ? Rejoignez-nous :</p>
+      <div class="flex flex-wrap gap-3">
+        <a href="https://discord.com/channels/1321186981329240064/1321431617394442281" class="px-5 py-3 rounded-2xl bg-primary hover:bg-pink-500 transition font-semibold" target="_blank" rel="noopener">Candidature / Ticket Discord</a>
+        <a href="#" class="px-5 py-3 rounded-2xl border border-primary/70 hover:bg-primary/10 transition">Calendrier des rencontres (à venir)</a>
+      </div>
+    </section>
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="mt-12 border-t border-white/10">
+    <div class="max-w-6xl mx-auto px-6 py-8 text-sm text-slate-400 flex flex-col sm:flex-row items-start sm:items-center justify-between gap-3">
+      <p>© <span id="year"></span> Campagne de Yoyo Calbi — Serenity RP.</p>
+      <div class="flex gap-3">
+        <a class="hover:text-white" href="#motivations">Motivations</a>
+        <a class="hover:text-white" href="#programme">Programme</a>
+        <a class="hover:text-white" href="#candidature">Soutenir</a>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+    const shareBtn = document.getElementById('shareBtn');
+    if (shareBtn) {
+      shareBtn.addEventListener('click', async () => {
+        const shareData = {
+          title: 'Yoyo Calbi – Candidat Gouverneur',
+          text: 'Découvrez mon programme : Un avenir solide pour Serenity',
+          url: window.location.href
+        };
+        if (navigator.share) {
+          try { await navigator.share(shareData); } catch {}
+        } else {
+          await navigator.clipboard.writeText(shareData.url);
+          shareBtn.textContent = 'Lien copié !';
+          setTimeout(()=> shareBtn.textContent = 'Partager', 1800);
+        }
+      });
+    }
+  </script>
+</body>
+</html>
